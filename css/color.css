@@ -1,0 +1,58 @@
+.spn {
+    color: #329232;
+}
+.btn{
+    background-color: #329232;
+    color: #fff;
+    padding: 7px 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #329232;
+}
+.btn:active{
+    opacity: 0.7;
+}
+.bg-primary{
+    background-color: #115252;
+}
+
+/* flex items */
+.flex-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 100%;
+}
+.flex-items > div{
+    padding: 50px 20px;
+    flex: 1;
+}
+.flex-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+}
+/* cases */
+.cases-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 5px 10px;
+}
+.flex-img{
+    display: flex;
+    padding: 10px 7px;
+}
+.flex-row{
+    width: 25%;
+    max-width: 25%;
+    padding: 10px 7px;
+}
